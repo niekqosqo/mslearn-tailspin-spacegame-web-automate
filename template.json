@@ -96,8 +96,8 @@
                 "[resourceId('Microsoft.Sql/servers', concat(parameters('servers_tailspin_space_game_sql_name'), variables('uniqueName')))]"
             ],
             "sku": {
-                "name": "B1",
-                "tier": "Basic"
+                "name": "S1",
+                "tier": "Standard"
             },
             "kind": "v12.0,user,vcore",
             "properties": {
